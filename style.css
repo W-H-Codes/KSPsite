@@ -16,13 +16,27 @@
 
      nav table{
          width:90%;
-         background-color:lightblue;
+         background-color:white;
      }
 
      nav a {
          text-decoration:none;
          color:black;
      }
+     
 
 /* Up: Navigation            Down: Everything Else */
 
+header{
+    /*placeholder image for background. No source. Get pic from ksp*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKWEHvgGN4WPB9Gw_rVKdIuVZzueuweORrF3J9qDsbog&s=10");
+    
+}
+
+.CenterAlignBlock{
+    background-color:black;
+    color:white;
+    margin-bottom:-20px;
+    width:60%;
+    text-align:center;
+}
