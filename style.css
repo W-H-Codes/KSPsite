@@ -1,3 +1,72 @@
+/*AI and External Website Use: I looked the ones for this
+    table of contents thing up, because it wasn't covered, but I
+    wanted the feature on my website. This is for scroll-behavior, &
+    scroll-margin-top.*/
+    
+html {
+    scroll-behavior: smooth;
+}
+
+.scrollto{
+    scroll-margin-top:2em;
+}
+
+iframe{
+    width:60%;
+    height: auto;
+    aspect-ratio:16 / 9;
+}
+
+body {
+    background-color:#e5f5ff;
+}
+
+.kerbal-disclaimer{
+    text-align:center;
+    margin: 0 auto;
+    display: block; /*Note to self: To center stuff,
+                    just use this code! Stop searching
+                    Google AI for it a bazillion times.
+                    The stuff is inline, and is probably
+                    not an actual "object" of it's own.
+                    You need to set it to a block display!!*/
+}
+
+li{
+    padding:0.5em
+}
+
+#HomeAbout{
+    font-size:20px;
+}
+
+.sourcetext{
+    font-size:12.5px;
+    font-weight:bold;
+    padding-bottom:3em; /*This adds an extra space below images and stuff!*/
+}
+#extraspacing td{
+    padding:0.5em;
+}
+
+/*TOOLTIPS: (I used AI and some other websites to learn this
+setion, as it was not really covered in codehs)*/
+aggr:hover{
+    background-color:yellow;
+}
+aggr{
+    cursor: help;
+    /*Please Note: I got the cursor help attribute from W3schools and AI*/
+    background-color:#e5fffc;
+    text-decoration:underline;
+}
+/*End of TOOLTIPS*/
+
+
+
+
+/*vvv Special Stuff vvv*/
+
      nav {
          position:fixed;
          top:0;
@@ -6,7 +75,7 @@
          text-align:center;
      }
 
-     nav table, th, td{
+     nav table,nav th,nav td{
          border:1px solid;
      }
 
@@ -16,7 +85,7 @@
 
      nav table{
          width:90%;
-         background-color:white;
+         background-color:#a1cbe6;
      }
 
      nav a {
@@ -25,18 +94,43 @@
      }
      
 
-/* Up: Navigation            Down: Everything Else */
+/* Up: Navigation            Down: Header */
+
+header{
+    margin:0;
+    padding:0;
+    /*I figured out that I can set the margin to -1em to get rid
+    of the spacing for the header section, from the main page,
+    but the slightly border-ed look has grown on me,and I decided
+    against it.*/
+    
+}
 
 header{
     /*placeholder image for background. No source. Get pic from ksp*/
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKWEHvgGN4WPB9Gw_rVKdIuVZzueuweORrF3J9qDsbog&s=10");
-    
+    height:300px;
+}
+header h1,header h3{
+    background-color:#e5fffc;
+    color:black;
+    width:80%;
+    text-align:center;
+    margin: 0 auto;
+}
+header h1{
+    font-size:50px;
+    margin-bottom:0px;
+    font-family:sans-serif;
 }
 
-.CenterAlignBlock{
-    background-color:black;
-    color:white;
-    margin-bottom:-20px;
-    width:60%;
-    text-align:center;
+/* Up: Header          Down:Footer */
+
+footer{
+    font-family:sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    background-color:#a1cbe6;
+    margin:-1em;
+    padding:10px;
 }
