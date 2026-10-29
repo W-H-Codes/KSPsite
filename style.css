@@ -17,6 +17,10 @@ iframe{
     aspect-ratio:16 / 9;
 }
 
+table{
+    background-color:#e5fffc;
+}
+
 body {
     background-color:#e5f5ff;
 }
@@ -107,8 +111,7 @@ header{
 }
 
 header{
-    /*placeholder image for background. No source. Get pic from ksp*/
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKWEHvgGN4WPB9Gw_rVKdIuVZzueuweORrF3J9qDsbog&s=10");
+    background-image: url("header-tile.png");
     height:300px;
 }
 header h1,header h3{
